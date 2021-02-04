@@ -8,5 +8,7 @@ public class DemoTest {
 	public void demoTest() {
 		System.setProperty("webdriver.chrome.driver", "driver-lib\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		
+		driver.navigate().to("https://www.google.com/");
 	}
 }
